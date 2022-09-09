@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Community</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+<style>
+    body {
+        font-family: 'Baloo 2', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+
+        background-size: 5000px;
+
+    }
+
+    .left {
+        font-family: 'Baloo 2', cursive;
+        display: inline block;
+
+        position: absolute;
+        left: 34px;
+        top: 20 px;
+    }
+
+    .left img {
+        width: 300px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 50px;
+        color: green;
+    }
+
+    .mid {
+        font-family: 'Baloo 2', cursive;
+        display: block;
+        width: 33%;
+        margin: 12px auto;
+        color: solid red;
+        font-size: 50px;
+    }
+
+    .Right {
+        font-family: 'Baloo 2', cursive;
+
+        display: inline-block;
+        position: absolute;
+        right: 35px;
+        top: 20px;
+    }
+
+    .navbar {
+        display: inline-block;
+        color: solid red;
+    }
+
+    .navbar li {
+        background-color: blue;
+        display: inline-block;
+        font-size: 40px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 45px 40px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .btn {
+        font-family: 'Baloo 2', cursive;
+        color: Orange;
+        margin: 10px 20px;
+        padding: 10px 15px;
+        font-size: 50px;
+        border: 10px solid red;
+    }
+
+    .btn:hover {
+        background-color: grey;
+    }
+
+    .container {
+        text-align: center;
+        margin: 5000px auto;
+
+        color: yellow;
+    }
+
+    .container h1 {
+        font-size: 500000px;
+    }
+
+    section {
+        min-height: 21900vh;
+        padding: 0 20%;
+        padding-top: 8rem;
+    }
+
+    .section p {
+        font-size: 500000px;
+    }
+
+    .content {
+        font-size: 80px;
+        text-align: center;
+        color: solid red;
+
+    }
+
+    .content h3 {
+        color: yellow;
+    }
+
+    .btn {
+        color: red;
+        cursor: pointer;
+        display: inline block;
+    }
+
+    .btn:hover {
+        color: grey;
+    }
+
+    .content p {
+        color: brown;
+    }
+
+    section {
+        min-height: 200vh;
+        padding: 0 10%;
+        padding-top: 10rem;
+    }
+
+    .home img {
+        min-height: 5000px;
+        min-width: 400px;
+        background-color: blue;
+    }
+
+    .home {
+        background-color: blue;
+    }
+
+    .group h3 {
+        font-size: 200px;
+        color: blue;
+        padding: 0 10%;
+        margin: 50px;
+
+    }
+
+    .group box2 {
+        min-height: 600px;
+        max-width: 200px;
+        padding: 0 10%;
+    }
+
+    .group {
+        background-color: yellow;
+    }
+
+    .instructor {
+        background-color: aqua;
+        font-size: 50px;
+        
+    }
+
+    .testimonals {
+        font-size: 100px;
+        color: blueviolet;
+        margin: 0 10%;
+        
+        background-color: antiquewhite
+    
+    }
+
+    .testimonals img {
+        height: 500px;
+        width: 600x;
+    }
+
+    .instructor img {
+        height: 500px;
+        width: 600px;
+
+    }
+
+    .group img {
+        height: 700px;
+        width: 800px;
+    }
+
+    .group {
+        color: brown;
+    }
+
+    .group p {
+        font-size: 100px;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="Images/coder.png" alt="">
+            <div>Coding community</div>
+            </ul>
+        </div>
+        <!-- mid box for navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+        </div>
+        <!-- Right box for buttons -->
+        <div class="Right">
+            <button class="btn">Login</button>
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Learn from Anywhere
+                Get Help From Here </h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro libero, pariatur sed culpa illum id
+                molestiae
+                dicta, quibusdam veniam totam praesentium! Eveniet odio eaque, ad sit repellendus minima consequatur
+                sint!
+            </p>
+
+            <a href="#" class="btn">Join Now</a>
+        </div>
+        <div class="image">
+            <img src="Images/community_2.jpeg" alt="">
+        </div>
+
+
+    </section>
+    <!-- Commuity Groups -->
+    <section class="group" id="group">
+        <h3 class="heading"> COMMUNITY GROUPS</h3>
+        <div class="box1">
+            <img src="Images/frontend community.jpeg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima distinctio non velit doloribus amet
+                cupiditate et mollitia assumenda consequuntur aliquam officiis a, molestias sunt molestiae veniam
+                impedit, sapiente odio magni?</p>
+            <button class="btn">Join community</button>
+        </div>
+        <div class="box2">
+            <img src="Images/Backend.jpeg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repudiandae ratione nesciunt totam
+                molestias, sequi soluta praesentium quo dolor ipsa fugit. Cumque, blanditiis deserunt. Modi corporis a,
+                tempora magnam, facilis perferendis asperiores dolorem id eveniet eligendi quod voluptate? Quo,
+                recusandae!</p>
+            <button class="btn">Join Community</button>
+        </div>
+        <div class="box3">
+            <img src="Images/javascript.jpeg" alt="">
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta praesentium voluptatum, quidem deserunt
+                ea optio maxime temporibus nulla hic culpa ratione eius placeat corrupti aspernatur. Voluptas autem
+                facere tempore, doloribus, odit dolores dignissimos quisquam nesciunt minus iusto repellat debitis
+                magni.</p>
+            <button class="btn"> Join Community</button>
+        </div>
+        <div class="box4">
+            <img src="Images/Angular.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur dolores quaerat explicabo deserunt
+                ab nam maxime quod quasi aliquam cupiditate dicta quia optio beatae expedita, sit doloribus quis odio
+                commodi, mollitia hic nesciunt. Nisi, perferendis.</p>
+            <button class="btn">Join Community</button>
+        </div>
+        <div class="box5">
+            <img src="Images/React.jpeg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae odit odio reprehenderit ab est ipsum,
+                fugit, dolores quo, deleniti ipsa error at eligendi ut provident repudiandae tempore voluptatibus
+                assumenda quibusdam. Exercitationem, deleniti repudiandae! Excepturi, dolores.</p>
+            <button class="btn">Join Community</button>
+        </div>
+        <h3>OUR INSTRUCTORS</h3>
+        <div class="instructor">
+            <img src="Images/Hiteshchoudhry.jpeg" alt="">
+            <p>Hitesh choudhary</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos iure quo quam repellendus aut. Cum
+                ipsam facere ex voluptas debitis animi doloremque recusandae odio ratione quisquam similique,
+                dignissimos repellendus modi?</p>
+        </div>
+        <div class="instructor">
+
+            <img src="Images/Naveen reddy.jpeg" alt="">
+            <p>Naveen Reddy</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam veritatis autem molestiae sunt,
+                distinctio et incidunt iste! Rem et ipsum eum dicta quibusdam suscipit quod, consectetur pariatur rerum
+                exercitationem necessitatibus.</p>
+        </div>
+        <div class="instructor">
+            <img src="Images/founder ineuron.jpeg" alt="">
+            <p>Krish Naik</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur est vitae tempore accusamus. Ab
+                esse soluta, dignissimos voluptas illo eaque veniam quisquam, incidunt quia fugit temporibus? Iusto
+                laudantium cupiditate quasi voluptatibus alias, distinctio cumque.</p>
+        </div>
+        <!-- Our Testimonals -->
+        <div class="testimonals">
+            <h2 class="testimonals">TESTIMONALS</h2>
+            <img src="Images/Testimonals_1.WEBP" alt="">
+            <p>Full stack Devloper</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+                distinctio voluptates praesentium totam sint, corrupti officia voluptatibus aut laboriosam! Minus
+                explicabo delectus
+                eos sint magnam eum velit iure, similique odit!</p>
+            <img src="Images/Testimonals_2.jpeg" alt="">
+            <p>Backend Devloper</p>
+            <p>Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Amet totam similique a quaerat! Ut, maxime? Repudiandae aliquam similique
+                quam ea cum! Vel inventore est pariatur quod obcaecati aperiam accusamus id!</p>
+            <img src="Images/Testimonals_3.jpeg" alt="">
+            <p>React Devloper</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit cum dolorum,
+                perferendis perspiciatis similique sunt laborum, porro eos at tenetur molestiae unde repellat dolorem
+                amet nostrum maxime velit soluta minus temporibus assumenda ad recusandae expedita.</p>
+            <img src="Images/testimonial_4.png" alt="">
+            <p>javascript Devloper</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consectetur
+                voluptate culpa quia, magni esse, quis fugit aliquam quaerat eaque cumque harum
+                vero velit placeat quas praesentium excepturi unde. Eaque nulla amet numquam iusto iure.</p>
+        </div>
+        <h3 class="QS">FAQ SECTION</h3>
+        <p><b>1-Why I will join the pensil Community?</b></p>
+        <p>It is a place where you connect with the best devlopers and learners
+            who solved your doubts very Quickly and You will Learn a lot from them.
+        </p>
+        <p><b>2-Can I join more than two communities?</b></p>
+        <p>Yes,You can join more than two communities.</p>
+        <p><b>3-Can I chat with the devlopers personally and take Guidance from them?</b></p>
+        <p>Yes,You can connect with The devlopers and take proper guidance from them.</p>
+        <p><b>4-How can I join community?</b></p>
+        <p>Click on the login button,then Enter your name and Email id and Join our Community.</p>
+        <p><b>5- Can I join the communities for Free</b></p>
+        <p>Yes,You can join our community for Free.</p>
+        <h3 class="url"> Connect With Us On</h3>
+        <img src="Images/twitter.jpeg" alt="">
+        <img src="Images/instalogo.jpeg" alt="">
+        <img src="Images/youtube.png" alt="">
+        <img src="Images/linkedln.png" alt="">
+
+    </section>
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>
